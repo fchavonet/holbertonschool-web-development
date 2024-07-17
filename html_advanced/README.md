@@ -86,7 +86,6 @@ For this task, please write an amazing `README.md`!
 - Directory: `html_advanced`.
 - File: `README.md`.
 <hr>
-<br>
 </details>
 
 <details>
@@ -114,7 +113,6 @@ Under the `header` add a `main` element
 - Directory: `html_advanced`.
 - File: `index.html`.
 <hr>
-<br>
 </details>
 
 <details>
@@ -147,7 +145,6 @@ In this `section` element, add:
 - Directory: `html_advanced`.
 - File: `index.html`.
 <hr>
-<br>
 </details>
 
 <details>
@@ -176,7 +173,6 @@ The quote section is after the banner `section`:
 - Directory: `html_advanced`.
 - File: `index.html`.
 <hr>
-<br>
 </details>
 
 <details>
@@ -208,7 +204,6 @@ New `section` containing:
 - Directory: `html_advanced`.
 - File: `index.html`.
 <hr>
-<br>
 </details>
 
 <details>
@@ -235,7 +230,6 @@ After the videos list section, add a new `section` containing:
 - Directory: `html_advanced`.
 - File: `index.html`.
 <hr>
-<br>
 </details>
 
 <details>
@@ -264,7 +258,6 @@ Hint: there is no “row block” tag, “row” is referring to the styling tha
 - Directory: `html_advanced`.
 - File: `index.html`.
 <hr>
-<br>
 </details>
 
 <details>
@@ -293,7 +286,6 @@ And… that’s it for the moment - the result should not be shiny, don’t worr
 - Directory: `html_advanced`.
 - File: `index.html`.
 <hr>
-<br>
 </details>
 
 ## 🔨 <span id="tech-stack">Tech stack</span>
@@ -309,10 +301,10 @@ And… that’s it for the moment - the result should not be shiny, don’t worr
 
 | **FILE**        | **DESCRIPTION**                                    |
 | :-------------: | -------------------------------------------------- |
+| `README.md`     | The readme file you are currently reading 😉.      |  
 | `index.html`    | The basic HTML file for the project.               |
 | `style.css`     | CSS styles for rendering the HTML wireframe.       |
 | `wireframe.html`| Copy of `index.html` for previewing the wireframe. |
-| `README.md`     | The readme file you are currently reading 😉.      |  
 
 ## ♥️ <span id="thanks">Thanks</span>
 
