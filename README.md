@@ -26,6 +26,7 @@ All these projects were completed as part of the Holberton School curriculum. Th
 | **FILE**       | **DESCRIPTION**                                      |
 | :------------: | ---------------------------------------------------- |
 | `html_advanced`| Directory containing the HTML structure of the site. |
+| `resources`    | Contains the resources required for the repository.  |
 | `README.md`    | The readme file you are currently reading 😉.        |   
 
 ## ♥️ <span id="thanks">Thanks</span>
