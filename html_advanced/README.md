@@ -33,6 +33,8 @@ Here was the wireframe structure to reproduce:
 
 I aimed to exceed expectations by duplicating the basic HTML file I've created (`index.html` -> `wireframe.html`) and adding a CSS file independently of the base project to replicate the wireframe above. So you can verify the accuracy of my work [here](https://fchavonet.github.io/holbertonschool-web-development/html_advanced/wireframe.html).
 
+Please note that the site is not responsive, so for the best experience and a more accurate comparison with the reference image, I recommend viewing it on a computer. The layout may not display correctly on mobile devices, but responsiveness was not the focus of this exercise.
+
 ## 🎓 <span id="objectives">Objectives</span>
 
 At the end of this project, I had to be able to explain to anyone, **without the help of Google** :
@@ -97,7 +99,7 @@ For this task, please write an amazing `README.md`!
 Let’s start at the top: **the header**.
 
 Here is the wireframe of it:
-<img src="../resources/images/task01-header.jpg" alt="Header wireframe">
+<img src="../resources/images/html-task01-header.jpg" alt="Header wireframe">
 
 - Create the HTML skeleton (`html`, `head`, `body`, etc.).
 - In the body, add a `header` tag.
@@ -122,7 +124,7 @@ Under the `header` add a `main` element
 	<br>
 
 Now, the banner inside the `main`:
-<img src="../resources/images/task02-banner.jpg" alt="Banner wireframe">
+<img src="../resources/images/html-task02-banner.jpg" alt="Banner wireframe">
 
 Inside the `main`, add a `section` element.
 
@@ -154,7 +156,7 @@ In this `section` element, add:
 	<br>
 
 Under the banner, we will add the quote block:
-<img src="../resources/images/task03-quote.jpg" alt="Quote wireframe">
+<img src="../resources/images/html-task03-quote.jpg" alt="Quote wireframe">
 
 The quote section is after the banner `section`:
 
@@ -182,7 +184,7 @@ The quote section is after the banner `section`:
 	<br>
 
 Let’s now add the videos list:
-<img src="../resources/images/task04-videos.jpg" alt="Videos wireframe">
+<img src="../resources/images/html-task04-videos.jpg" alt="Videos wireframe">
 
 New `section` containing:
 
@@ -213,7 +215,7 @@ New `section` containing:
 	<br>
 
 The Membership section is similar to the videos list:
-<img src="../resources/images/task05-membership.jpg" alt="Membership wireframe">
+<img src="../resources/images/html-task05-membership.jpg" alt="Membership wireframe">
 
 After the videos list section, add a new `section` containing:
 
@@ -239,7 +241,7 @@ After the videos list section, add a new `section` containing:
 	<br>
 
 The FAQ section is ending the page before the footer:
-<img src="../resources/images/task06-faq.jpg" alt="FAQ wireframe">
+<img src="../resources/images/html-task06-faq.jpg" alt="FAQ wireframe">
 
 Add a `section` for the FAQ containing:
 
@@ -267,7 +269,7 @@ Hint: there is no “row block” tag, “row” is referring to the styling tha
 	<br>
 
 And… the footer!
-<img src="../resources/images/task07-footer.jpg" alt="Footer wireframe">
+<img src="../resources/images/html-task07-footer.jpg" alt="Footer wireframe">
 
 After the last `section`, outside of the `main`, add a `footer`:
 
@@ -291,9 +293,8 @@ And… that’s it for the moment - the result should not be shiny, don’t worr
 ## 🔨 <span id="tech-stack">Tech stack</span>
 
 <p align="left">
-    <img src="https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white&style=for-the-badge" alt="CSS" badge" alt="CSS3 badge">
     <img src="https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white&style=for-the-badge" alt="HTML badge" alt="HTML5 badge">
-    <img src="https://img.shields.io/badge/JAVASCRIPT-f7df1e?logo=javascript&logoColor=black&style=for-the-badge" alt="JavaScript badge">
+    <img src="https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white&style=for-the-badge" alt="CSS" badge" alt="CSS3 badge">
 <p>
 
 ## 📂 <span id="files-description">File description</span>
