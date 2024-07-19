@@ -34,7 +34,8 @@ body {
     background-size: auto;
     background-position: top;
     background-repeat: no-repeat;
-    background-attachment: fixed; /* Can be disabled, non compliant, just for style ;) */
+    background-attachment: fixed;
+    /* Can be disabled, non compliant, just for style ;) */
     background-color: #0a1627;
 }
 
@@ -114,8 +115,6 @@ nav a:hover {
 }
 
 /********** BANNER SECTION **********/
-#banner {}
-
 /* Banner title block */
 #banner_title_container {
     padding-top: 125px;
@@ -316,7 +315,7 @@ nav a:hover {
     font-weight: 400;
     line-height: 24px;
     text-align: justify;
-    color: rgb(132 138 147);
+    color: #848a93;
 }
 
 .video_creator_container {
@@ -454,11 +453,55 @@ nav a:hover {
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
+    color: #848a93;
 }
 
-/********** FOOTER **********/
+/********** FAQ SECTION **********/
 footer {
     width: 100%;
     height: 250px;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
     background-color: #071629;
+}
+
+footer p {
+    font-family: "SourceSansPro Light", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    color: #848a93;
+}
+
+#footer_container {
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#social_media_icon_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    transition: 0.2s ease-in-out;
+}
+
+#social_media_icon_container a {
+    transition: 0.2s ease-in-out;
+}
+
+#social_media_icon_container a:hover {
+    transform: scale(1.1);
+}
+
+.social_media_icon {
+    width: 30px;
+    height: 30px;
+    fill: #ffffff;
+    cursor: pointer;
 }
