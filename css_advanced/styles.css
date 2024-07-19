@@ -30,10 +30,15 @@
 body {
     font-family: "SourceSansPro Regular", sans-serif;
     color: #ffffff;
+    background-image: url(./resources/images/background.png);
+    background-size: auto;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Can be disabled, non compliant, just for style ;) */
+    background-color: #0a1627;
 }
 
 main {
-    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
@@ -109,17 +114,11 @@ nav a:hover {
 }
 
 /********** BANNER SECTION **********/
-#banner {
-    background-image: url(./resources/images/background.png);
-    background-size: cover;
-    background-position:top;
-    background-repeat: no-repeat;
-    background-color: #0a1627;
-}
+#banner {}
 
 /* Banner title block */
 #banner_title_container {
-    padding-top: 220px;
+    padding-top: 125px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -264,6 +263,7 @@ nav a:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: #ffffff;
 }
 
 #videos_container {
@@ -382,7 +382,7 @@ nav a:hover {
 }
 
 #membership_container {
-    padding: 75px;
+    padding: 75px 0 60px 0;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -414,6 +414,7 @@ nav a:hover {
     justify-content: center;
     align-items: center;
     color: #071629;
+    background-color: #ffffff;
 }
 
 #faq h1 {
