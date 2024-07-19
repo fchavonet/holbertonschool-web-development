@@ -30,7 +30,11 @@ In this part, I had to focus on the CSS and the style of the page. The goal was 
 
 <img src="../resources/images/smileschool_final_design.png">
 
-You can test the deployed version (via GitHub) by clicking [here](https://fchavonet.github.io/holbertonschool-web-development/css_advanced/). The site is not responsive, so for a better comparison with the reference image, I recommend testing it on a computer. On a mobile device, the experience may not be optimal, but please bear in mind that responsiveness was not the focus of this exercise.
+You can test the deployed version (via GitHub) by clicking [here](https://fchavonet.github.io/holbertonschool-web-development/css_advanced/).
+<br>
+The site is not responsive, so for a better comparison with the reference image, I recommend testing it on a computer.
+<br>
+On a mobile device, the experience may not be optimal, but please bear in mind that responsiveness was not the focus of this exercise.
 
 ## 🎓 <span id="objectives">Objectives</span>
 
