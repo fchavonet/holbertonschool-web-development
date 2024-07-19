@@ -1,8 +1,19 @@
 /********** FONT IMPORT **********/
 @font-face {
+    font-family: "SourceSansPro Light";
+    src: url(./resources/fonts/sourcesanspro-light.otf);
+}
+
+@font-face {
     font-family: "SourceSansPro Regular";
     src: url(./resources/fonts/sourcesanspro-regular.otf);
 }
+
+@font-face {
+    font-family: "SourceSansPro Black";
+    src: url(./resources/fonts/sourcesanspro-black.otf);
+}
+
 
 /********** RESET CSS **********/
 *,
@@ -20,12 +31,19 @@
 body {
     font-family: "SourceSansPro Regular", sans-serif;
     color: #ffffff;
-    background-color: #071629;
+}
+
+main {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1;
 }
 
 /********** HEADER **********/
 header {
-    max-width: 1100px;
+    width: 1100px;
     height: 30px;
     margin: 35px auto;
 }
@@ -53,4 +71,115 @@ nav a {
 
 nav a:hover {
     text-decoration: underline;
+}
+
+/********** BANNER SECTION **********/
+#banner {
+    background-image: url(./resources/images/background.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #0a1627;
+}
+
+/* Banner title block */
+#banner_title_container {
+    padding-top: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#banner_title_container h1 {
+    font-family: "SourceSansPro Black", sans-serif;
+    font-size: 120px;
+    font-weight: 700;
+    line-height: 150px;
+}
+
+#banner_title_container p {
+    width: 300px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+
+#banner_title_container button {
+    padding: 15px 20px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #ffffff;
+    border: none;
+    border-radius: 25px;
+    background-color: #c271ff;
+    box-shadow: 0px 2px 20px 0px #00000080;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+#banner_title_container button:hover {
+    transform: scale(1.1);
+}
+
+/* Banner pros block */
+#banner_pros_container {
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#banner_pros_container h2 {
+    font-family: "SourceSansPro Light", sans-serif;
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 40px;
+}
+
+#banner_pros_container h2 span {
+    font-family: "SourceSansPro Regular", sans-serif;
+    font-weight: 700;
+    color: #c271ff;
+}
+
+#banner_pros_infos_container {
+    width: 1000px;
+    margin-top: 125px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner_pros_infos {
+    text-align: center;
+}
+
+.banner_pros_infos img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.banner_pros_infos h3 {
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 25px;
+}
+
+.banner_pros_infos p {
+    font-family: "SourceSansPro Light", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    font-style: italic;
 }
